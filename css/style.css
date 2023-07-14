@@ -1,0 +1,137 @@
+:root {
+    --surface: #Ffffff;
+    --primary: #3F72AF;
+    --hover-color: #112D4E;
+    --text-color: #2F2F2F;
+    --grey-secondary: #E5E8FF;
+
+    --fwreguler: 400;
+    --fwmedium: 500;
+    --fwsemibold: 600;
+    --fwbold: 700;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: var(--surface);
+}
+
+.mt-58{
+    margin-top: 58px;
+}
+
+.mt-24{
+    margin-top: 24px;
+}
+
+.mb-12{
+    margin-bottom: 12px;
+}
+
+.nav-brand{
+    display: flex;
+    justify-content: center;
+}
+
+a.text-brand {
+    font-size: 24px;
+    font-weight: var(--fwbold);
+    text-decoration: none;
+    color: var(--primary);
+    align-self: center;
+}
+
+.logo-brand{
+    width: 36px;
+    height: 36px;
+}
+
+.navbar-nav .nav-item {
+    padding-left: 20px;
+    padding-right: 20px;
+    font-weight: var(--fwmedium);
+}
+
+.navbar-nav .nav-item a {
+    color: var(--text-color);
+    transition: all 0.3s ease;
+}
+
+.navbar-nav .nav-item a:hover {
+    color: var(--hover-color);
+    font-weight: var(--fwmedium);
+    transition: all 0.3s ease;
+}
+
+.btn-primary{
+    background: var(--primary);
+    color: #Ffffff;
+    padding: 16px 8px;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 23px;
+    border-radius: 8px;
+    border: none;
+    transition: 0.3s ease;
+}
+
+.btn-primary:hover{
+    background: var(--hover-color);
+    color: #Ffffff;
+    transition: 0.3s ease;
+}
+
+.btn-secondary {
+    background: var(--grey-secondary);
+    font-size: 16px;
+    font-weight: 700;
+    color: var(--text-color);
+    padding: 12px 20px 12px 20px;
+    border: none;
+    transition: 0.3s ease;
+}
+
+.btn-secondary:hover {
+    background: var(--hover-color);
+    color: #Ffffff;
+    transition: 0.3s ease;
+}
+
+.big-header{
+    font-size: 52px;
+    font-weight: var(--fwbold);
+    align-self: stretch;
+    color: var(--text-color);
+}
+
+.small-text{
+    color: var(--text-color);
+    font-size: 18px;
+    font-weight: var(--fwreguler);
+}
+
+.text-follow{
+    font-size: 24px;
+    font-weight: var(--fwbold);
+    text-decoration: none;
+    color: var(--text-color);
+    align-self: center;
+}
+
+.fitur-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    align-self: stretch;
+}
+
+.fitur{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+

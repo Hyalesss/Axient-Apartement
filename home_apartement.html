@@ -4,179 +4,106 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Axien Apartement</title>
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.7.0/flowbite.min.css" rel="stylesheet" />
-    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Axient Apartment</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700&family=Overlock+SC&family=Poppins:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
 
-    <Section id="container" class="flex py-[24px] px-[144px] flex-col items-center gap-[10px]">
-        <!-- navbar -->
-        <section class="flex justify-between items-center self-stretch">
-
-            <div class="h-9 justify-start items-center gap-3 inline-flex">
-                <img src="img/material-symbols_apartment.png" alt="Logo-brand" class="w-[36px] h-[36px] relative">
-                <div class="text-zinc-800 text-2xl font-bold leading-loose">AXIEN</div>
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+            <div class="nav-brand">
+                <a class="text-brand" href="#">AXIEN</a>
             </div>
-
-            <div class="h-5 justify-center items-center gap-6 inline-flex">
-                <div class="justify-start items-start gap-2.5 flex">
-                    <div class="text-sky-950 text-base font-bold leading-tight">Home</div>
-                </div>
-                <div class="justify-start items-start gap-2.5 flex">
-                    <div class="text-zinc-800 text-base font-normal leading-tight">Explore</div>
-                </div>
-                <div class="justify-start items-start gap-2.5 flex">
-                    <div class="text-zinc-800 text-base font-normal leading-tight">Categories</div>
-                </div>
-                <div class="justify-start items-start gap-2.5 flex">
-                    <div class="text-zinc-800 text-base font-normal leading-tight">Testimonials</div>
-                </div>
-            </div>
-
-            <button class="w-[74px] h-9 py-2 bg-indigo-100 rounded-lg justify-center items-center gap-2.5 inline-flex">
-                <div class="text-zinc-800 text-base font-bold leading-tight">Sign in</div>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
             </button>
-        </section>
-        <!-- end of navbar -->
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#">Explore</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Categories</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#">Testimonial</a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav mb-2 mb-lg-">
+                    <li class="">
+                        <a type="button" class="btn btn-secondary">Sign in</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
 
-        <!-- Hero Section -->
-
-        <section id="container" class=" w-auto h-auto py-12 justify-start items-start gap-24 inline-flex">
-
-            <div class="grow shrink basis-0 flex-col justify-start items-start gap-6 inline-flex">
-                <div class="text-zinc-800 text-[52px] font-bold leading-[70px]">Future Apartement<br />Urban
-                    Living<br />Expert</div>
-                <div class="text-zinc-800 text-lg font-normal leading-[27px]">The most comfortable home for future
-                    life<br />With your family</div>
-                <button class="px-2 py-4 bg-sky-950 rounded-lg justify-start items-start gap-2.5 inline-flex">
-                    <div class="text-indigo-100 text-lg font-bold leading-[23px]">Explore More</div>
-                </button>
-
-                <div class="self-stretch justify-start items-start gap-24 inline-flex">
-                    <div class="w-[528px] h-[71px] justify-between items-start gap-12 inline-flex">
-                        <div class="flex-col justify-center items-center gap-3 inline-flex">
-                            <div class="flex-col justify-start items-start gap-3 flex">
-                                <div class="text-center text-zinc-800 text-2xl font-bold leading-loose">23,853</div>
+    <section>
+        <div class="mt-58">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div>
+                            <h1 class="big-header">
+                                Future Apartement
+                                Urban Living <br>
+                                Expert
+                            </h1>
+                            <p class="small-text mt-24">
+                                The most comfortable home for future life <br>
+                                With your family
+                            </p>
+                            <button class="btn btn-primary mt-24">
+                                Explore More
+                            </button>
+                        </div>
+                        <div class="fitur-container mt-24">
+                            <div class="fitur">
+                                <p class="text-follow mb-12">
+                                    23,853
+                                </p>
+                                <p>
+                                    Apartement
+                                </p>    
                             </div>
-                            <div class="flex-col justify-start items-start gap-3 flex">
-                                <div class="text-center text-zinc-800 text-lg font-normal leading-[27px]">Apartement
-                                </div>
+                            <div class="fitur">
+                                <p class="text-follow mb-12">
+                                    605
+                                </p>
+                                <p>
+                                    Award's
+                                </p>    
+                            </div>
+                            <div class="fitur">
+                                <p class="text-follow mb-12">
+                                    10 Million +
+                                </p>
+                                <p class="">
+                                    Happy People
+                                </p>    
                             </div>
                         </div>
-                        <div class="flex-col justify-center items-center gap-3 inline-flex">
-                            <div class="flex-col justify-start items-start gap-3 flex">
-                                <div class="text-center text-zinc-800 text-2xl font-bold leading-loose">605</div>
-                            </div>
-                            <div class="flex-col justify-start items-start gap-3 flex">
-                                <div class="text-center text-zinc-800 text-lg font-normal leading-[27px]">Award</div>
-                            </div>
-                        </div>
-                        <div class="flex-col justify-center items-center gap-3 inline-flex">
-                            <div class="flex-col justify-start items-start gap-3 flex">
-                                <div class="self-stretch text-center text-zinc-800 text-2xl font-bold leading-loose">10
-                                    Million +</div>
-                            </div>
-                            <div class="flex-col justify-start items-start gap-3 flex">
-                                <div class="text-center text-zinc-800 text-lg font-normal leading-[27px]">Happy People
-                                </div>
-                            </div>
-                        </div>
                     </div>
-                </div>
-            </div>
-
-            <div class="w-[500px] h-[470px] flex-col justify-start items-start gap-16 inline-flex">
-                <img class="self-stretch grow shrink basis-0 p-2.5 rounded-[32px]" src="img/Hero-Apart.png" />
-            </div>
-        </section>
-
-        <!-- End of hero section -->
-
-        <!-- Section Best apartement -->
-
-        <section id="bestofbest" class="w-auto h-auto py-12 flex-col justify-center items-center gap-6 inline-flex">
-            <div class="w-auto h-auto flex-col justify-center items-center gap-3 inline-flex">
-                <div class="text-zinc-800 text-[32px] font-bold leading-10">Best of The Best</div>
-                <div class="text-center text-zinc-800 text-lg font-normal leading-[27px]">These are the various kinds of
-                    apartments<br />that we provide for you with complete amenities</div>
-            </div>
-        </section>
-
-        <div class="w-[1152px] h-[358px] justify-center items-center gap-6 inline-flex">
-            <div class="bg-indigo-100 flex-col justify-center items-start gap-3 inline-flex">
-                <img class="p-2.5 rounded--lg" src="img/Frame 20.png" />
-                <div class="self-stretch px-3 justify-start items-center gap-2.5 inline-flex">
-                    <div class="grow shrink basis-0 text-zinc-800 text-2xl font-bold leading-loose">Grand Jakarta</div>
-                </div>
-                <div class="self-stretch px-3 justify-between items-center gap-3 inline-flex">
-                    <div class="h-8 justify-start items-center gap-1 flex">
-                        <img src="img/carbon_location.png" class="w-8 h-8 relative"></img>
-                        <div
-                            class="truncate w-[134px]  grow shrink basis-0 text-zinc-800 text-sm font-normal leading-[21px]">
-                            Indonesia, Jakarta</div>
-                    </div>
-                    <div class="text-sky-950 text-base font-bold leading-normal">2.500$</div>
-                </div>
-            </div>
-            <div class="bg-indigo-100 flex-col justify-center items-start gap-3 inline-flex">
-                <img class="p-2.5 rounded--lg" src="img/Frame 21.png" />
-                <div class="self-stretch px-3 justify-start items-center gap-2.5 inline-flex">
-                    <div class="grow shrink basis-0 text-zinc-800 text-2xl font-bold leading-loose"><a href="Explore.html">Nobelnou’s</a></div>
-                </div>
-                <div class="self-stretch px-3 justify-between items-center gap-3 inline-flex">
-                    <div class="h-8 justify-start items-center gap-1 flex">
-                        <img src="img/carbon_location.png" class="w-8 h-8 relative"></img>
-                        <div
-                            class="truncate w-[134px]  grow shrink basis-0 text-zinc-800 text-sm font-normal leading-[21px]">
-                            Japan, Tokyo</div>
-                    </div>
-                    <div class="text-sky-950 text-base font-bold leading-normal">3.600$</div>
-                </div>
-            </div>
-            <div class="bg-indigo-100 flex-col justify-center items-start gap-3 inline-flex">
-                <img class="p-2.5 rounded--lg" src="img/Frame 22.png" />
-                <div class="self-stretch px-3 justify-start items-center gap-2.5 inline-flex">
-                    <div class="grow shrink basis-0 text-zinc-800 text-2xl font-bold leading-loose">Volvoe Nouture</div>
-                </div>
-                <div class="self-stretch px-3 justify-between items-center gap-3 inline-flex">
-                    <div class="h-8 justify-start items-center gap-1 flex">
-                        <img src="img/carbon_location.png" class="w-8 h-8 relative"></img>
-                        <div
-                            class="truncate w-[134px]  grow shrink basis-0 text-zinc-800 text-sm font-normal leading-[21px]">
-                            United
-                            Kingdom, Queen</div>
-                    </div>
-                    <div class="text-sky-950 text-base font-bold leading-normal">4.800$</div>
-                </div>
-            </div>
-            <div class="bg-indigo-100 flex-col justify-center items-start gap-3 inline-flex">
-                <img class="p-2.5 rounded--lg" src="img/Frame 23.png" />
-                <div class="self-stretch px-3 justify-start items-center gap-2.5 inline-flex">
-                    <div class="grow shrink basis-0 text-zinc-800 text-2xl font-bold leading-loose">Grand Velizian</div>
-                </div>
-                <div class="self-stretch px-3 justify-between items-center gap-3 inline-flex">
-                    <div class="h-8 justify-start items-center gap-1 flex">
-                        <img src="img/carbon_location.png" class="w-8 h-8 relative"></img>
-                        <div
-                            class="truncate w-[134px]  grow shrink basis-0 text-zinc-800 text-sm font-normal leading-[21px]">
-                            Spain, Barcelona</div>
-                    </div>
-                    <div class="text-sky-950 text-base font-bold leading-normal">5.800$</div>
                 </div>
             </div>
         </div>
+    </section>
 
-        <button class="w-[1152px] py-4 text-right text-sky-950 text-lg font-bold leading-[27px]">See More</button>
-        <!-- End of best apartement -->
-    </Section>
-
-
-
-    <!-- Script Js Flowbite -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.7.0/flowbite.min.js"></script>
-    <!-- End of the Script -->
+    <!-- Js Boostrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous">
+    </script>
+    <!-- End of Js Boostrap -->
 </body>
 
 </html>
