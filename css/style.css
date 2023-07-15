@@ -16,19 +16,27 @@ body {
     background: var(--surface);
 }
 
-.mt-58{
-    margin-top: 58px;
+.pt-48 {
+    padding-top: 48px;
 }
 
-.mt-24{
+.pb-48 {
+    padding-bottom: 48px;
+}
+
+.mt-10 {
+    margin-top: 10px;
+}
+
+.mt-24 {
     margin-top: 24px;
 }
 
-.mb-12{
+.mb-12 {
     margin-bottom: 12px;
 }
 
-.nav-brand{
+.nav-brand {
     display: flex;
     justify-content: center;
 }
@@ -41,7 +49,7 @@ a.text-brand {
     align-self: center;
 }
 
-.logo-brand{
+.logo-brand {
     width: 36px;
     height: 36px;
 }
@@ -63,7 +71,7 @@ a.text-brand {
     transition: all 0.3s ease;
 }
 
-.btn-primary{
+.btn-primary {
     background: var(--primary);
     color: #Ffffff;
     padding: 16px 8px;
@@ -75,7 +83,7 @@ a.text-brand {
     transition: 0.3s ease;
 }
 
-.btn-primary:hover{
+.btn-primary:hover {
     background: var(--hover-color);
     color: #Ffffff;
     transition: 0.3s ease;
@@ -97,20 +105,20 @@ a.text-brand {
     transition: 0.3s ease;
 }
 
-.big-header{
+.big-header {
     font-size: 52px;
     font-weight: var(--fwbold);
     align-self: stretch;
     color: var(--text-color);
 }
 
-.small-text{
+.small-text {
     color: var(--text-color);
     font-size: 18px;
     font-weight: var(--fwreguler);
 }
 
-.text-follow{
+.text-follow {
     font-size: 24px;
     font-weight: var(--fwbold);
     text-decoration: none;
@@ -118,20 +126,23 @@ a.text-brand {
     align-self: center;
 }
 
-.fitur-container{
+.fitur-container {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
     align-self: stretch;
 }
 
-.fitur{
+.fitur {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-
-
-
+.layout-header {
+    display: flex;
+    padding: 48px 0px;
+    align-items: flex-start;
+    gap: 96px;
+}
