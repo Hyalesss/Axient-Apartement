@@ -178,6 +178,7 @@ a.text-brand {
 
 .contentnya {
     width: 270px;
+    height: auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -195,7 +196,7 @@ a.text-brand {
 }
 
 .isi-content {
-    display: flex;
+    width: auto;
     padding: 0px 12px;
     justify-content: space-between;
     align-items: center;
@@ -204,7 +205,6 @@ a.text-brand {
 
 .isi-content2 {
     display: flex;
-    width: 192px;
     align-items: center;
     gap: 4px;
 }
@@ -222,7 +222,6 @@ a.text-brand {
     font-size: 24px;
     font-style: normal;
     font-weight: 700;
-    line-height: 32px;
 }
 
 .text-content {
@@ -238,5 +237,20 @@ a.text-brand {
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
-    line-height: 32px;
+
+    margin-bottom: 0;
+}
+
+.text-harga-small {
+    width: 55px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+    flex: 1 0 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 16px;
+    font-weight: var(--fwbold);
+    color: var(--hover-color);
+    margin-bottom: 0;
 }
